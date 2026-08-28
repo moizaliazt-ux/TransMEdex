@@ -9,31 +9,31 @@ const specialties = [
   {
     name: 'Urology',
     description: 'Patient-friendly procedural billing and device tracking.',
-    image: '/urology-specialty.png',
+    image: '/urology-specialty.webp',
     link: '/specialties/urology'
   },
   {
     name: 'Cardiology',
     description: 'High-value cardiology claims with cath lab expertise.',
-    image: '/cardiology-specialty.png',
+    image: '/cardiology-specialty.webp',
     link: '/specialties/cardiology'
   },
   {
     name: 'Orthopedics',
     description: 'Surgical and rehab billing that keeps episodes aligned.',
-    image: '/orthopedics-specialty.png',
+    image: '/orthopedics-specialty.webp',
     link: '/specialties/orthopedics'
   },
   {
     name: 'Behavioral Health',
     description: 'Telehealth and therapy claims handled with precision.',
-    image: '/behavioral-health-specialty.png',
+    image: '/behavioral-health-specialty.webp',
     link: '/specialties/behavioral-health'
   },
   {
     name: 'Laboratory Billing',
     description: 'Panel and specimen billing optimized for every lab.',
-    image: '/laboratory-billing-specialty.png',
+    image: '/laboratory-billing-specialty.webp',
     link: '/specialties/laboratory-billing'
   },
   {
@@ -48,7 +48,7 @@ const features = [
   {
     title: 'Clear specialty workflows',
     description: 'We map each specialty to its distinct billing rules and payer expectations.',
-    image: '/specialty-workflows.png'
+    image: '/specialty-workflows.webp'
   },
   {
     title: 'Visual claim intelligence',
@@ -99,6 +99,8 @@ export default function SpecialtiesPage() {
                   src="https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?auto=format&fit=crop&w=1200&q=80"
                   alt="Medical specialties"
                   className="h-full w-full object-cover transition-transform duration-500 hover:scale-105"
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
             </div>
@@ -139,6 +141,8 @@ export default function SpecialtiesPage() {
                         src={item.image}
                         alt={item.name}
                         className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                        loading="lazy"
+                        decoding="async"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/40 to-transparent" />
                       <div className="absolute bottom-5 left-5 text-white">
@@ -173,7 +177,7 @@ export default function SpecialtiesPage() {
                   className="rounded-[1.75rem] bg-slate-950/90 p-6 shadow-2xl"
                 >
                   <div className="relative mb-6 h-48 overflow-hidden rounded-3xl bg-slate-800">
-                    <img src={feature.image} alt={feature.title} className="h-full w-full object-cover transition-transform duration-500 hover:scale-105" />
+                    <img src={feature.image} alt={feature.title} className="h-full w-full object-cover transition-transform duration-500 hover:scale-105" loading="lazy" decoding="async" />
                     <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 to-transparent" />
                   </div>
                   <h3 className="text-xl font-semibold">{feature.title}</h3>
@@ -217,6 +221,8 @@ export default function SpecialtiesPage() {
                   src="https://images.unsplash.com/photo-1550831107-1553da8c8464?auto=format&fit=crop&w=1200&q=80"
                   alt="Medical billing team"
                   className="h-full w-full object-cover"
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
             </div>

@@ -186,6 +186,8 @@ export default function StatesMainPage() {
                     src={state.image} 
                     alt={`${state.name} cityscape`} 
                     className="w-full h-full object-cover transition-transform duration-700 ease-in-out group-hover:scale-110"
+                    loading="lazy"
+                    decoding="async"
                   />
                 </div>
                 <div className="p-6 flex flex-col flex-grow">

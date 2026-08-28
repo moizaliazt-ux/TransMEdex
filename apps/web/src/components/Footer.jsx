@@ -137,6 +137,10 @@ function Footer() {
               src="https://horizons-cdn.hostinger.com/7a432855-cd07-4bff-aa05-d1970751b6de/a27dc909893ded6711ddc4a601441ec9.png" 
               alt="TransMedex" 
               className="h-10" 
+              width="160"
+              height="40"
+              loading="lazy"
+              decoding="async"
             />
           </Link>
           <div className="text-center px-4">

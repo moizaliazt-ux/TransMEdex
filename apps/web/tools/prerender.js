@@ -109,8 +109,16 @@ async function prerender() {
         fs.mkdirSync(outputDir, { recursive: true });
       }
 
+      // Restore non-render-blocking Google Fonts pattern
+      // During prerender, the onload handler fires and changes media="print" to media="all"
+      // We need to revert it so the static HTML keeps fonts non-render-blocking
+      let processedHtml = html.replace(
+        /(<link\s+rel="stylesheet"\s+href="https:\/\/fonts\.googleapis\.com\/css2[^"]*")\s+media="all"\s+onload="this\.media='all'"/g,
+        '$1 media="print" onload="this.media=\'all\'"'
+      );
+
       // Write the prerendered HTML
-      fs.writeFileSync(outputPath, html);
+      fs.writeFileSync(outputPath, processedHtml);
       console.log(`  Saved ${outputPath}`);
       await page.close();
     }

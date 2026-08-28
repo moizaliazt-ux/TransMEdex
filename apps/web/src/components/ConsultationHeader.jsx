@@ -11,6 +11,9 @@ function ContactUsHeader() {
               src="https://horizons-cdn.hostinger.com/7a432855-cd07-4bff-aa05-d1970751b6de/a27dc909893ded6711ddc4a601441ec9.png"
               alt="TransMedex Logo"
               className="h-12 w-auto object-contain"
+              width="192"
+              height="48"
+              decoding="async"
             />
           </Link>
         </div>

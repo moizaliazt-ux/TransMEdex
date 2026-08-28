@@ -200,7 +200,7 @@ export default function CareCloudPage() {
                   </div>
                 </div>
                 <div className="rounded-[2rem] border border-slate-200 bg-slate-50 p-8 shadow-sm">
-                  <img src="/images/emr/carecloud-hero.svg" alt="CareCloud support illustration" className="w-full rounded-3xl" />
+                  <img src="/images/emr/carecloud-hero.svg" alt="CareCloud support illustration" className="w-full rounded-3xl" loading="lazy" decoding="async" />
                 </div>
               </div>
             </div>

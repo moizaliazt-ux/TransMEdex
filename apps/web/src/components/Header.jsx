@@ -197,7 +197,10 @@ function Header() {
               <img
                 src="/logo.png"
                 alt="TransMedex Logo"
+                width="200"
+                height="50"
                 className="h-10 w-auto object-contain transition-transform duration-500 group-hover:scale-105"
+                decoding="async"
               />
             </Link>
 
@@ -365,7 +368,10 @@ function Header() {
                         <img
                           src="/logo.png"
                           alt="TransMedex"
+                          width="200"
+                          height="50"
                           className="h-9 w-auto"
+                          decoding="async"
                         />
                       </Link>
                     </SheetTitle>

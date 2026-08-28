@@ -60,6 +60,8 @@ const EMRCard = ({ platform }) => {
           alt={`${platform.name} logo`}
           className="h-8 sm:h-10 w-auto object-contain mb-2 sm:mb-3 transition-transform group-hover:scale-105"
           onError={() => setImgError(true)}
+          loading="lazy"
+          decoding="async"
         />
       )}
       

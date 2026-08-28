@@ -391,7 +391,7 @@ export default function AdvancedMDPage() {
                   </div>
                 </div>
                 <div className="rounded-[2rem] overflow-hidden border border-slate-200 bg-white p-6 shadow-sm">
-                  <img src="/images/emr/advancedmd-hero.svg" alt="AdvancedMD revenue cycle support" className="w-full rounded-3xl" />
+                  <img src="/images/emr/advancedmd-hero.svg" alt="AdvancedMD revenue cycle support" className="w-full rounded-3xl" loading="lazy" decoding="async" />
                 </div>
               </div>
             </div>

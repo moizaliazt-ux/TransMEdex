@@ -312,6 +312,8 @@ function ContactPage() {
                   src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1600" 
                   alt="Dashboard interface" 
                   className="w-full h-auto object-cover max-h-[600px]"
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
             </div>
@@ -337,6 +339,8 @@ function ContactPage() {
                     src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=1200" 
                     alt="Doctors reviewing clinical data" 
                     className="w-full h-full object-cover"
+                    loading="lazy"
+                    decoding="async"
                   />
                 </div>
               </div>
@@ -348,6 +352,8 @@ function ContactPage() {
                     src="https://images.unsplash.com/photo-1579621970588-a35d0e7ab9b6?auto=format&fit=crop&q=80&w=1200" 
                     alt="Make Your Revenue Cycle Efficient with Piggy Bank" 
                     className="w-full h-full object-cover"
+                    loading="lazy"
+                    decoding="async"
                   />
                 </div>
                 <div className="order-1 lg:order-2">

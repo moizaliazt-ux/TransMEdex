@@ -18,7 +18,7 @@ function Gallery({ images }) {
   return (
     <div className="mt-6 grid grid-cols-2 gap-3">
       {images.map((src, i) => (
-        <img key={i} src={src} alt={`gallery-${i}`} className="w-full h-28 object-cover rounded-md border" />
+        <img key={i} src={src} alt={`gallery-${i}`} className="w-full h-28 object-cover rounded-md border" loading="lazy" decoding="async" />
       ))}
     </div>
   );
@@ -31,7 +31,7 @@ export default function CaseStudiesList() {
         <section key={c.slug} className="mx-auto max-w-6xl py-16">
           <div className="rounded-lg overflow-hidden bg-white shadow-sm">
             <div className="w-full h-64">
-              <img src={c.heroImage} alt={c.heroTitle} className="w-full h-64 object-cover" />
+              <img src={c.heroImage} alt={c.heroTitle} className="w-full h-64 object-cover" loading="lazy" decoding="async" />
             </div>
 
             <div className="grid gap-10 lg:grid-cols-3 p-12">

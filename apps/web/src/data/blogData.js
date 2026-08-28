@@ -5,7 +5,7 @@ export const blogPosts = [
     excerpt: 'Master urology billing with CPT codes, modifier details, prevention, reimbursement strategies, and documentation tips to improve clean claims and maximize revenue.',
     category: 'MEDICAL BILLING',
     date: '06/16/2026',
-    image: '/blog/blog_urology_1787604957636.jpg',
+    image: '/blog/blog_urology_1787604957636.webp',
     slug: 'urology-billing-guide',
     color: '#7c3aed'
   },
@@ -15,7 +15,7 @@ export const blogPosts = [
     excerpt: 'Learn CPT code 64612 billing rates, Medicare payment, modifiers, e-codes, ICD-10 codes, reimbursement, documentation, and common denial tips for 2026.',
     category: 'MEDICAL BILLING',
     date: '06/16/2026',
-    image: '/blog/blog_coding_1787604967820.jpg',
+    image: '/blog/blog_coding_1787604967820.webp',
     slug: 'cpt-code-64612',
     color: '#0da1df'
   },
@@ -25,7 +25,7 @@ export const blogPosts = [
     excerpt: 'CPT code 49083 covers abdominal paracentesis with imaging guidance. Learn the Medicare payment, correct modifiers, ICD-10 coding, and RCO bundling rules for accurate billing.',
     category: 'MEDICAL BILLING',
     date: '06/16/2026',
-    image: '/blog/blog_finance_1787604979559.jpg',
+    image: '/blog/blog_finance_1787604979559.webp',
     slug: 'cpt-code-49083',
     color: '#dc2626'
   },
@@ -35,7 +35,7 @@ export const blogPosts = [
     excerpt: 'Compare the top 10 ophthalmology billing companies in the USA. Read company data, verified contacts, and key points to help your eye care practice cut denials.',
     category: 'MEDICAL BILLING',
     date: '06/16/2026',
-    image: '/blog/blog_ophthalmology_1787604990454.jpg',
+    image: '/blog/blog_ophthalmology_1787604990454.webp',
     slug: 'ophthalmology-billing-companies',
     color: '#7c3aed'
   },
@@ -45,7 +45,7 @@ export const blogPosts = [
     excerpt: 'Explore ICD-10 codes for ASC billing by specialty, HIPAA updates, denial prevention strategies, CPT pairing rules, and coding compliance best practices.',
     category: 'MEDICAL BILLING',
     date: '06/16/2026',
-    image: '/blog/blog_compliance_1787605001209.jpg',
+    image: '/blog/blog_compliance_1787605001209.webp',
     slug: 'icd10-codes-asc',
     color: '#0da1df'
   },
@@ -55,7 +55,7 @@ export const blogPosts = [
     excerpt: 'Complete guide to N.J.A.C. 11:22-1 including payment deadlines, interest rates, the internal appeal and arbitration path, and which payers are exempt from the rule.',
     category: 'MEDICAL BILLING',
     date: '06/16/2026',
-    image: '/blog/blog_general_1787605013087.jpg',
+    image: '/blog/blog_general_1787605013087.webp',
     slug: 'nj-prompt-pay-law',
     color: '#7c3aed'
   },
@@ -65,7 +65,7 @@ export const blogPosts = [
     excerpt: 'eClinicalWorks vs Epic compared on pricing, market share, interoperability, output, and which one your specialty and facility type need.',
     category: 'MEDICAL BILLING',
     date: '06/17/2026',
-    image: '/blog/blog_urology_1787604957636.jpg',
+    image: '/blog/blog_urology_1787604957636.webp',
     slug: 'eclinicalworks-vs-epic',
     color: '#0da1df'
   },
@@ -75,7 +75,7 @@ export const blogPosts = [
     excerpt: 'It is a drug used for 1 unit of 275 mg, and one vial is 1 serving and you surrender three quarters of the drug payment. Run rates, packaging, and denied fees.',
     category: 'MEDICAL BILLING',
     date: '06/17/2026',
-    image: '/blog/blog_coding_1787604967820.jpg',
+    image: '/blog/blog_coding_1787604967820.webp',
     slug: 'hcpcs-code-j2785',
     color: '#7c3aed'
   },
@@ -85,7 +85,7 @@ export const blogPosts = [
     excerpt: 'Learn HCPCS code J9332 billing rates for Keytruda, including documentation, refill modifiers, ICD-10 coding, reimbursement, prior authorization, and cost guidelines for 2026.',
     category: 'MEDICAL BILLING',
     date: '06/17/2026',
-    image: '/blog/blog_finance_1787604979559.jpg',
+    image: '/blog/blog_finance_1787604979559.webp',
     slug: 'hcpcs-code-j9332',
     color: '#dc2626'
   },
@@ -95,7 +95,7 @@ export const blogPosts = [
     excerpt: 'Explore the top 10 internal medicine billing companies in the USA. This guide covers ratings and key features to find your ideal billing partner.',
     category: 'MEDICAL BILLING',
     date: '06/17/2026',
-    image: '/blog/blog_ophthalmology_1787604990454.jpg',
+    image: '/blog/blog_ophthalmology_1787604990454.webp',
     slug: 'internal-medicine-billing-companies',
     color: '#0da1df'
   },
@@ -105,7 +105,7 @@ export const blogPosts = [
     excerpt: 'Learn connectivity of POEM coding for POEM procedures, denial common denials, and understand ICD-10, prior authorization, and modifier billing requirements for all practices.',
     category: 'GASTROENTEROLOGY',
     date: '06/21/2026',
-    image: '/blog/blog_compliance_1787605001209.jpg',
+    image: '/blog/blog_compliance_1787605001209.webp',
     slug: 'poem-procedure-billing',
     color: '#7c3aed'
   },
@@ -115,7 +115,7 @@ export const blogPosts = [
     excerpt: 'Explore eClinicalWorks features across web, practice management, telehealth and review portal to support, Healow Interoperability, and pricing.',
     category: 'MEDICAL BILLING',
     date: '06/21/2026',
-    image: '/blog/blog_general_1787605013087.jpg',
+    image: '/blog/blog_general_1787605013087.webp',
     slug: 'eclinicalworks-features',
     color: '#0da1df'
   },
@@ -125,7 +125,7 @@ export const blogPosts = [
     excerpt: 'Complete pediatric ICD-10 code guide at 250 CPT code, age gates, growth, behavioral and chronic codes, plus the clinic best that stop specialty denials.',
     category: 'MEDICAL BILLING',
     date: '06/21/2026',
-    image: '/blog/blog_urology_1787604957636.jpg',
+    image: '/blog/blog_urology_1787604957636.webp',
     slug: 'pediatric-icd10-codes',
     color: '#dc2626'
   },
@@ -135,7 +135,7 @@ export const blogPosts = [
     excerpt: 'Pediatric CPT codes decoded: age-banded well visits, 90460 component counting, modifier 25 placement, and the new 2026 counseling codes. Kind of info.',
     category: 'MEDICAL BILLING',
     date: '06/21/2026',
-    image: '/blog/blog_coding_1787604967820.jpg',
+    image: '/blog/blog_coding_1787604967820.webp',
     slug: 'pediatric-cpt-codes',
     color: '#7c3aed'
   },
@@ -145,7 +145,7 @@ export const blogPosts = [
     excerpt: 'The American College of Surgeons confirms CPT 2026 added new general surgery codes for gastric procedures. Rates also our work rates by 2.6%.',
     category: 'MEDICAL BILLING',
     date: '06/21/2026',
-    image: '/blog/blog_finance_1787604979559.jpg',
+    image: '/blog/blog_finance_1787604979559.webp',
     slug: 'general-surgery-cpt-codes',
     color: '#0da1df'
   },
@@ -155,7 +155,7 @@ export const blogPosts = [
     excerpt: 'Learn pulmonology ICD-10 codes by condition plus COPD exacerbation coding nuances, a respiratory coding failure specialty that keeps claims clean.',
     category: 'MEDICAL BILLING',
     date: '06/21/2026',
-    image: '/blog/blog_ophthalmology_1787604990454.jpg',
+    image: '/blog/blog_ophthalmology_1787604990454.webp',
     slug: 'pulmonology-icd10-codes',
     color: '#7c3aed'
   },
@@ -165,7 +165,7 @@ export const blogPosts = [
     excerpt: 'Comprehensive urology ICD-10 code reference by category, with CPT links, NCC flags, and documentation steps for accurate billing.',
     category: 'MEDICAL BILLING',
     date: '06/21/2026',
-    image: '/blog/blog_compliance_1787605001209.jpg',
+    image: '/blog/blog_compliance_1787605001209.webp',
     slug: 'urology-icd10-codes',
     color: '#0da1df'
   },
@@ -175,7 +175,7 @@ export const blogPosts = [
     excerpt: 'AdvancedMD serves practices of 2 to 50 clinicians. Epic reaches independent groups above 40. Compare practice size, pricing, billing modules, and migration tips.',
     category: 'MEDICAL BILLING',
     date: '06/24/2026',
-    image: '/blog/blog_general_1787605013087.jpg',
+    image: '/blog/blog_general_1787605013087.webp',
     slug: 'advancedmd-vs-epic',
     color: '#7c3aed'
   },
@@ -185,7 +185,7 @@ export const blogPosts = [
     excerpt: 'Do you know that bronchoscopy has more than 31 CPT codes, whereas pulmonary function test (PFT) has 22? How acid sleep medicine, pulmonary rehabilitation, respiratory.',
     category: 'MEDICAL BILLING',
     date: '06/24/2026',
-    image: '/blog/blog_urology_1787604957636.jpg',
+    image: '/blog/blog_urology_1787604957636.webp',
     slug: 'pulmonary-cpt-codes',
     color: '#dc2626'
   },
@@ -195,7 +195,7 @@ export const blogPosts = [
     excerpt: 'This guide explains urology CPT codes: categories, common codes, modifiers, NCC edits, and the 2026 prostate biopsy and transplant code changes.',
     category: 'MEDICAL BILLING',
     date: '07/02/2026',
-    image: '/blog/blog_coding_1787604967820.jpg',
+    image: '/blog/blog_coding_1787604967820.webp',
     slug: 'urology-cpt-codes',
     color: '#0da1df'
   },
@@ -205,7 +205,7 @@ export const blogPosts = [
     excerpt: 'Complete dermatology billing reference covering E/M codes, biopsy coding, Mohs surgery modifiers, and payer-specific documentation requirements for 2026.',
     category: 'MEDICAL BILLING',
     date: '07/05/2026',
-    image: '/blog/blog_finance_1787604979559.jpg',
+    image: '/blog/blog_finance_1787604979559.webp',
     slug: 'dermatology-billing-guide',
     color: '#7c3aed'
   },
@@ -215,7 +215,7 @@ export const blogPosts = [
     excerpt: 'Discover the top 10 denial reasons in medical billing and proven strategies to prevent them. Reduce your denial rate below 5% with this actionable guide.',
     category: 'MEDICAL BILLING',
     date: '07/08/2026',
-    image: '/blog/blog_ophthalmology_1787604990454.jpg',
+    image: '/blog/blog_ophthalmology_1787604990454.webp',
     slug: 'reduce-claim-denials',
     color: '#0da1df'
   },
@@ -225,7 +225,7 @@ export const blogPosts = [
     excerpt: 'Understand the key differences between provider credentialing and privileging, timelines, required documents, and how delays impact your revenue cycle.',
     category: 'MEDICAL BILLING',
     date: '07/10/2026',
-    image: '/blog/blog_compliance_1787605001209.jpg',
+    image: '/blog/blog_compliance_1787605001209.webp',
     slug: 'credentialing-vs-privileging',
     color: '#dc2626'
   },
@@ -235,7 +235,7 @@ export const blogPosts = [
     excerpt: 'Navigate telehealth reimbursement with updated CPT codes, modifier 95 vs GT, POS 02 vs 10, and state-by-state parity law differences for 2026.',
     category: 'MEDICAL BILLING',
     date: '07/12/2026',
-    image: '/blog/blog_general_1787605013087.jpg',
+    image: '/blog/blog_general_1787605013087.webp',
     slug: 'telehealth-billing-guide',
     color: '#7c3aed'
   },
@@ -245,7 +245,7 @@ export const blogPosts = [
     excerpt: 'From days in A/R to clean claim rate, learn the 12 essential KPIs that reveal the true health of your revenue cycle and how to benchmark them.',
     category: 'MEDICAL BILLING',
     date: '07/14/2026',
-    image: '/blog/blog_urology_1787604957636.jpg',
+    image: '/blog/blog_urology_1787604957636.webp',
     slug: 'medical-billing-kpis',
     color: '#0da1df'
   },
@@ -255,7 +255,7 @@ export const blogPosts = [
     excerpt: 'Accurate ICD-10 coding for behavioral health conditions including major depressive disorder, generalized anxiety, PTSD, and substance use disorders.',
     category: 'BEHAVIORAL HEALTH',
     date: '07/16/2026',
-    image: '/blog/blog_coding_1787604967820.jpg',
+    image: '/blog/blog_coding_1787604967820.webp',
     slug: 'mental-health-icd10',
     color: '#7c3aed'
   },
@@ -265,7 +265,7 @@ export const blogPosts = [
     excerpt: 'Streamline your prior auth workflow with electronic submission tips, payer-specific requirements, and appeal letter templates that actually work.',
     category: 'MEDICAL BILLING',
     date: '07/18/2026',
-    image: '/blog/blog_finance_1787604979559.jpg',
+    image: '/blog/blog_finance_1787604979559.webp',
     slug: 'prior-authorization-best-practices',
     color: '#dc2626'
   },
@@ -275,7 +275,7 @@ export const blogPosts = [
     excerpt: 'Master orthopedic billing with fracture care codes, arthroscopy CPT updates, global period rules, and modifier usage for surgical and non-surgical cases.',
     category: 'MEDICAL BILLING',
     date: '07/20/2026',
-    image: '/blog/blog_ophthalmology_1787604990454.jpg',
+    image: '/blog/blog_ophthalmology_1787604990454.webp',
     slug: 'orthopedic-billing-guide',
     color: '#0da1df'
   },
@@ -285,7 +285,7 @@ export const blogPosts = [
     excerpt: 'Ensure your billing operations meet HIPAA requirements with this 15-point compliance checklist covering PHI handling, BAAs, encryption, and staff training.',
     category: 'MEDICAL BILLING',
     date: '07/22/2026',
-    image: '/blog/blog_compliance_1787605001209.jpg',
+    image: '/blog/blog_compliance_1787605001209.webp',
     slug: 'hipaa-compliance-checklist',
     color: '#7c3aed'
   },
@@ -295,7 +295,7 @@ export const blogPosts = [
     excerpt: 'End-to-end RCM breakdown from patient registration to final payment posting. Learn how top-performing practices achieve 98%+ collection rates.',
     category: 'MEDICAL BILLING',
     date: '07/25/2026',
-    image: '/blog/blog_general_1787605013087.jpg',
+    image: '/blog/blog_general_1787605013087.webp',
     slug: 'rcm-ultimate-guide',
     color: '#0da1df'
   },
@@ -305,7 +305,7 @@ export const blogPosts = [
     excerpt: 'Detailed gastroenterology billing guide covering screening vs diagnostic colonoscopy, EGD coding, polyp removal add-ons, and modifier 59 unbundling.',
     category: 'GASTROENTEROLOGY',
     date: '07/28/2026',
-    image: '/blog/blog_urology_1787604957636.jpg',
+    image: '/blog/blog_urology_1787604957636.webp',
     slug: 'gastroenterology-billing',
     color: '#dc2626'
   },
@@ -315,7 +315,7 @@ export const blogPosts = [
     excerpt: 'Not all billing companies are equal. Use these 8 critical questions to evaluate transparency, technology, specialty expertise, and contract terms.',
     category: 'MEDICAL BILLING',
     date: '07/30/2026',
-    image: '/blog/blog_coding_1787604967820.jpg',
+    image: '/blog/blog_coding_1787604967820.webp',
     slug: 'choose-medical-billing-company',
     color: '#7c3aed'
   },
@@ -325,7 +325,7 @@ export const blogPosts = [
     excerpt: 'Stay current with the latest evaluation and management code updates, including split/shared visit rules, MDM complexity changes, and add-on code G2211.',
     category: 'MEDICAL BILLING',
     date: '08/02/2026',
-    image: '/blog/blog_finance_1787604979559.jpg',
+    image: '/blog/blog_finance_1787604979559.webp',
     slug: 'em-coding-changes-2026',
     color: '#0da1df'
   },
@@ -335,7 +335,7 @@ export const blogPosts = [
     excerpt: 'Navigate pain management billing complexity with epidural injection codes, trigger point CPTs, fluoroscopy guidance rules, and NCCI bundling edits.',
     category: 'MEDICAL BILLING',
     date: '08/05/2026',
-    image: '/blog/blog_ophthalmology_1787604990454.jpg',
+    image: '/blog/blog_ophthalmology_1787604990454.webp',
     slug: 'pain-management-billing',
     color: '#dc2626'
   },
@@ -345,7 +345,7 @@ export const blogPosts = [
     excerpt: 'Should your practice outsource billing? Analyze the true cost comparison between in-house and outsourced billing, including hidden expenses most overlook.',
     category: 'MEDICAL BILLING',
     date: '08/08/2026',
-    image: '/blog/blog_compliance_1787605001209.jpg',
+    image: '/blog/blog_compliance_1787605001209.webp',
     slug: 'billing-outsourcing-analysis',
     color: '#7c3aed'
   },
@@ -355,7 +355,7 @@ export const blogPosts = [
     excerpt: 'Comprehensive nephrology billing resource covering monthly capitation payments, dialysis CPT codes, ESRD bundling, and transplant evaluation coding.',
     category: 'MEDICAL BILLING',
     date: '08/10/2026',
-    image: '/blog/blog_general_1787605013087.jpg',
+    image: '/blog/blog_general_1787605013087.webp',
     slug: 'nephrology-billing-guide',
     color: '#0da1df'
   }

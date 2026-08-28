@@ -1,4 +1,4 @@
-﻿import React, { useState } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, ShieldCheck, CheckCircle2, Sparkles, Users, BarChart3 } from 'lucide-react';
 import Header from '@/components/Header.jsx';
@@ -375,7 +375,7 @@ export default function AthenahealthPage() {
                   </div>
                 </div>
                 <div className="rounded-[2rem] overflow-hidden border border-slate-200 bg-slate-100 p-6 shadow-sm">
-                  <img src="/images/emr/athena-hero.svg" alt="Athena revenue cycle audit" className="w-full rounded-3xl" />
+                  <img src="/images/emr/athena-hero.svg" alt="Athena revenue cycle audit" className="w-full rounded-3xl" loading="lazy" decoding="async" />
                 </div>
               </div>
             </div>

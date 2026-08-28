@@ -326,7 +326,7 @@ function StatePageTemplate({ stateName, seoDescription, cities, challenges, hero
                 {cities.map((city, i) => (
                   <div key={i} className="bg-white rounded-2xl shadow-md overflow-hidden border border-slate-200 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl group">
                     <div className="relative overflow-hidden h-40 sm:h-48">
-                      <img src={city.image} alt={`${city.name}, ${stateName}`} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                      <img src={city.image} alt={`${city.name}, ${stateName}`} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" decoding="async" />
                       <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 to-transparent" />
                       <h3 className="absolute bottom-3 sm:bottom-4 left-3 sm:left-4 font-bold text-base sm:text-lg text-white drop-shadow">{city.name}, {stateName}</h3>
                     </div>

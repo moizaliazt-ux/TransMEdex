@@ -210,7 +210,7 @@ function HomePage() {
               <motion.div className="relative" initial={{ opacity: 0, x: 40 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.8, delay: 0.3, ease: 'easeOut' }}>
                 <div className="absolute -right-16 top-10 h-[440px] w-[440px] rounded-full bg-gradient-to-br from-primary/25 to-[#591667]/10 blur-3xl animate-pulse-glow" />
                 <div className="relative overflow-hidden rounded-[1.25rem] border border-white/40 glass-card p-3 shadow-2xl shadow-primary/10">
-                  <img src="/hero-image.png" alt="Doctor with patient" className="h-[300px] md:h-[420px] w-full rounded-xl object-cover block" fetchpriority="high" loading="eager" />
+                  <img src="/hero-image.webp" alt="Doctor with patient" width="665" height="370" className="h-[300px] md:h-[420px] w-full rounded-xl object-cover block" fetchpriority="high" loading="eager" decoding="async" />
                   <div className="pointer-events-none absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-white/80 to-transparent rounded-b-xl" />
                 </div>
               </motion.div>
@@ -420,7 +420,7 @@ function HomePage() {
               </motion.div>
 
               <motion.div className="relative overflow-hidden rounded-[2rem] border border-white/10 bg-white/5 p-4 shadow-2xl shadow-black/20" initial={{ opacity: 0, x: 40 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }}>
-                <img src="https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?auto=format&fit=crop&w=1200&q=80" alt="Medical team" className="h-[300px] md:h-[520px] w-full rounded-[1.75rem] object-cover" />
+                <img src="https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?auto=format&fit=crop&w=1200&q=80" alt="Medical team" className="h-[300px] md:h-[520px] w-full rounded-[1.75rem] object-cover" loading="lazy" decoding="async" />
               </motion.div>
             </div>
           </div>
@@ -565,7 +565,7 @@ function HomePage() {
 
               <motion.div className="relative overflow-hidden rounded-[2rem] border border-slate-200 bg-slate-50 p-4 shadow-lg" initial={{ opacity: 0, x: 40 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }}>
                 <div className="absolute -right-12 top-8 h-48 w-48 rounded-full bg-primary/10 blur-3xl animate-pulse-glow" />
-                <img src="/medical-center.jpg" alt="Medical professionals" className="h-[300px] md:h-[520px] w-full rounded-[1.75rem] object-cover" />
+                <img src="/medical-center.webp" alt="Medical professionals" width="408" height="602" className="h-[300px] md:h-[520px] w-full rounded-[1.75rem] object-cover" loading="lazy" decoding="async" />
               </motion.div>
             </div>
           </div>

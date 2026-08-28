@@ -1,4 +1,4 @@
-﻿import React, { useState } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import Header from '@/components/Header.jsx';
@@ -262,7 +262,7 @@ export default function EpicPage() {
                   </div>
                 </div>
                 <div className="rounded-[2rem] overflow-hidden border border-slate-200 bg-white p-6 shadow-sm">
-                  <img src="/images/emr/epic-ai.svg" alt="Epic AI billing illustration" className="w-full rounded-3xl" />
+                  <img src="/images/emr/epic-ai.svg" alt="Epic AI billing illustration" className="w-full rounded-3xl" loading="lazy" decoding="async" />
                 </div>
               </div>
             </div>
