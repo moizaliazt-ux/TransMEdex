@@ -1,4 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react';
+
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import {
@@ -420,7 +421,7 @@ function HomePage() {
               </motion.div>
 
               <motion.div className="relative overflow-hidden rounded-[2rem] border border-white/10 bg-white/5 p-4 shadow-2xl shadow-black/20" initial={{ opacity: 0, x: 40 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }}>
-                <img src="https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?auto=format&fit=crop&w=1200&q=80" alt="Medical team" className="h-[300px] md:h-[520px] w-full rounded-[1.75rem] object-cover" loading="lazy" decoding="async" />
+                <img src="" alt="Medical team" className="h-[300px] md:h-[520px] w-full rounded-[1.75rem] object-cover" loading="lazy" decoding="async" />
               </motion.div>
             </div>
           </div>
