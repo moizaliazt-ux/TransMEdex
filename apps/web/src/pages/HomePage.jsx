@@ -210,8 +210,8 @@ function HomePage() {
               {/* Right — Hero Image */}
               <motion.div className="relative" initial={{ opacity: 0, x: 40 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.8, delay: 0.3, ease: 'easeOut' }}>
                 <div className="absolute -right-16 top-10 h-[440px] w-[440px] rounded-full bg-gradient-to-br from-primary/25 to-[#591667]/10 blur-3xl animate-pulse-glow" />
-                <div className="relative overflow-hidden rounded-3xl border border-slate-200/60 shadow-2xl shadow-primary/10">
-                  <img src="/hero-image.webp" alt="Medical billing team" width="665" height="370" className="h-[300px] md:h-[420px] w-full rounded-3xl object-cover block" fetchpriority="high" loading="eager" decoding="async" />
+                <div className="relative overflow-hidden rounded-3xl border border-slate-200/60 shadow-2xl shadow-primary/10" style={{ borderRadius: '1.5rem', overflow: 'hidden' }}>
+                  <img src="/hero-image.webp" alt="Medical billing team" width="665" height="370" className="h-[300px] md:h-[420px] w-full rounded-3xl object-cover block" style={{ borderRadius: '1.5rem' }} fetchpriority="high" loading="eager" decoding="async" />
                 </div>
               </motion.div>
             </div>
@@ -563,8 +563,8 @@ function HomePage() {
                 </motion.div>
               </motion.div>
 
-              <motion.div className="relative overflow-hidden rounded-3xl border border-slate-100 shadow-xl" initial={{ opacity: 0, x: 40 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }}>
-                <img src="\WhatsApp Image 2026-08-06 at 00.55.00.jpeg" alt="Medical professionals" width="408" height="602" className="h-[300px] md:h-[520px] w-full rounded-3xl object-cover" loading="lazy" decoding="async" />
+              <motion.div className="relative overflow-hidden rounded-3xl border border-slate-100 shadow-xl" style={{ borderRadius: '1.5rem', overflow: 'hidden' }} initial={{ opacity: 0, x: 40 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }}>
+                <img src="/medical-center.webp" alt="Medical professionals" width="408" height="602" className="h-[300px] md:h-[520px] w-full rounded-3xl object-cover block" style={{ borderRadius: '1.5rem' }} loading="lazy" decoding="async" />
               </motion.div>
             </div>
           </div>
