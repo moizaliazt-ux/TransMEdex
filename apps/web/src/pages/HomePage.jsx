@@ -564,7 +564,7 @@ function HomePage() {
               </motion.div>
 
               <motion.div className="relative overflow-hidden rounded-3xl border border-slate-100 shadow-xl" style={{ borderRadius: '1.5rem', overflow: 'hidden' }} initial={{ opacity: 0, x: 40 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }}>
-                <img src="/medical-center.webp" alt="Medical professionals" width="408" height="602" className="h-[300px] md:h-[520px] w-full rounded-3xl object-cover block" style={{ borderRadius: '1.5rem' }} loading="lazy" decoding="async" />
+                <img src="\WhatsApp Image 2026-08-06 at 00.55.00.jpeg" alt="Medical professionals" width="408" height="602" className="h-[300px] md:h-[520px] w-full rounded-3xl object-cover block" style={{ borderRadius: '1.5rem' }} loading="lazy" decoding="async" />
               </motion.div>
             </div>
           </div>
