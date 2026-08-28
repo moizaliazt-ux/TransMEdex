@@ -429,7 +429,7 @@ function HomePage() {
                       title: 'Pediatric CPT Codes Guide: Well Visits, Vaccines, E/M & Modifiers',
                       desc: 'Pediatric CPT codes decoded: age-banded well visits, 90460 component counting, modifier 25 placement, and the new 2026 counseling codes 90462 to 90465.',
                       image: '/blog/blog_general_1787605013087.webp',
-                      link: '/blog/nj-prompt-pay-law'
+                      link: '/resources/blog/nj-prompt-pay-law'
                     },
                     {
                       date: '06/01/2026',
@@ -438,7 +438,7 @@ function HomePage() {
                       title: 'General Surgery CPT Codes: The 2026 Cheat Sheet for Surgical Billing',
                       desc: 'The American College of Surgeons confirms CPT 2026 added new general surgery codes for gastric and liver procedures. CMS also cut work RVUs by 2.8%.',
                       image: '/blog/blog_coding_1787604967820.webp',
-                      link: '/blog/cpt-code-64612'
+                      link: '/resources/blog/cpt-code-64612'
                     },
                     {
                       date: '06/01/2026',
@@ -447,7 +447,7 @@ function HomePage() {
                       title: 'Pulmonology ICD-10 Codes: A Respiratory Coding Reference Guide for 2026',
                       desc: 'Common pulmonology ICD-10 codes by condition: post-COPD exacerbation coding, hypoxia vs. hypoxemia rules, and respiratory failure specificity that keeps claims clean.',
                       image: '/blog/blog_finance_1787604979559.webp',
-                      link: '/blog/cpt-code-49083'
+                      link: '/resources/blog/cpt-code-49083'
                     },
                     {
                       date: '06/01/2026',
@@ -456,7 +456,7 @@ function HomePage() {
                       title: 'Urology ICD-10 Codes: Complete Diagnosis Code Reference by Category',
                       desc: 'Complete urology ICD-10 code reference by category, with CRT lines, HCC flags, and documentation tips for accurate billing.',
                       image: '/blog/blog_urology_1787604957636.webp',
-                      link: '/blog/urology-billing-guide'
+                      link: '/resources/blog/urology-billing-guide'
                     },
                     {
                       date: '06/01/2026',
@@ -465,7 +465,7 @@ function HomePage() {
                       title: 'AdvancedMD vs Epic: Practice Size, Cost, and Billing',
                       desc: 'AdvancedMD serves practices of 2 to 50 providers. Epic reaches independent groups above 40. Compare practice size, pricing, billing modules, and migration risk.',
                       image: '/blog/blog_ophthalmology_1787604990454.webp',
-                      link: '/blog/ophthalmology-billing-companies'
+                      link: '/resources/blog/ophthalmology-billing-companies'
                     },
                     {
                       date: '06/01/2026',
@@ -474,7 +474,7 @@ function HomePage() {
                       title: 'Pulmonology CPT Codes 2026: Cheat Sheet with 70+ Codes',
                       desc: 'Do you know that bronchoscopy has more than 20 CPT codes, whereas pulmonary function testing (PFT) has 20? Now add sleep medicine, pulmonary rehabilitation, respiratory...',
                       image: '/blog/blog_compliance_1787605001209.webp',
-                      link: '/blog/icd10-codes-asc'
+                      link: '/resources/blog/icd10-codes-asc'
                     }
                   ].map((card, idx) => (
                     <Link key={idx} to={card.link} className="group flex flex-col justify-between rounded-xl border border-slate-200/70 bg-white p-2.5 shadow-sm hover:shadow-md hover:border-primary/50 transition-all duration-200 text-left">

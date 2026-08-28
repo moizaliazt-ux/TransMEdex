@@ -125,10 +125,12 @@ function App() {
         <Route path="/who-we-serve/independent-practices" element={<IndependentPracticesPage />} />
         <Route path="/who-we-serve/:slug" element={<GenericPage categoryOverride="who-we-serve" />} />
         
-        {/* Resources Routes */}
+        {/* Resources & Blog Routes */}
         <Route path="/resources/company" element={<CompanyPage />} />
         <Route path="/resources/blog" element={<BlogPage />} />
         <Route path="/resources/blog/:slug" element={<BlogTemplate />} />
+        <Route path="/blog" element={<BlogPage />} />
+        <Route path="/blog/:slug" element={<BlogTemplate />} />
         <Route path="/resources/:slug" element={<GenericPage categoryOverride="resources" />} />
         
         {/* Catch-all 404 */}
