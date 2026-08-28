@@ -419,8 +419,86 @@ function HomePage() {
 
               </motion.div>
 
-              <motion.div className="relative overflow-hidden rounded-3xl border border-white/10 shadow-2xl shadow-black/20" initial={{ opacity: 0, x: 40 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }}>
-                <img src="/medical-center.webp" alt="Medical team" width="408" height="520" className="h-[300px] md:h-[520px] w-full rounded-3xl object-cover" loading="lazy" decoding="async" />
+              <motion.div className="relative overflow-hidden rounded-[2rem] bg-white p-3 sm:p-4 shadow-2xl border border-slate-200/80" initial={{ opacity: 0, x: 40 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }}>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5">
+                  {[
+                    {
+                      date: '06/01/2026',
+                      badge: 'MEDICAL BILLING',
+                      badgeColor: 'bg-primary',
+                      title: 'Pediatric CPT Codes Guide: Well Visits, Vaccines, E/M & Modifiers',
+                      desc: 'Pediatric CPT codes decoded: age-banded well visits, 90460 component counting, modifier 25 placement, and the new 2026 counseling codes 90462 to 90465.',
+                      image: '/blog/blog_general_1787605013087.webp',
+                      link: '/blog/nj-prompt-pay-law'
+                    },
+                    {
+                      date: '06/01/2026',
+                      badge: 'MEDICAL BILLING',
+                      badgeColor: 'bg-purple-600',
+                      title: 'General Surgery CPT Codes: The 2026 Cheat Sheet for Surgical Billing',
+                      desc: 'The American College of Surgeons confirms CPT 2026 added new general surgery codes for gastric and liver procedures. CMS also cut work RVUs by 2.8%.',
+                      image: '/blog/blog_coding_1787604967820.webp',
+                      link: '/blog/cpt-code-64612'
+                    },
+                    {
+                      date: '06/01/2026',
+                      badge: 'MEDICAL BILLING',
+                      badgeColor: 'bg-sky-600',
+                      title: 'Pulmonology ICD-10 Codes: A Respiratory Coding Reference Guide for 2026',
+                      desc: 'Common pulmonology ICD-10 codes by condition: post-COPD exacerbation coding, hypoxia vs. hypoxemia rules, and respiratory failure specificity that keeps claims clean.',
+                      image: '/blog/blog_finance_1787604979559.webp',
+                      link: '/blog/cpt-code-49083'
+                    },
+                    {
+                      date: '06/01/2026',
+                      badge: 'MEDICAL BILLING',
+                      badgeColor: 'bg-primary',
+                      title: 'Urology ICD-10 Codes: Complete Diagnosis Code Reference by Category',
+                      desc: 'Complete urology ICD-10 code reference by category, with CRT lines, HCC flags, and documentation tips for accurate billing.',
+                      image: '/blog/blog_urology_1787604957636.webp',
+                      link: '/blog/urology-billing-guide'
+                    },
+                    {
+                      date: '06/01/2026',
+                      badge: 'EHR GUIDE',
+                      badgeColor: 'bg-indigo-600',
+                      title: 'AdvancedMD vs Epic: Practice Size, Cost, and Billing',
+                      desc: 'AdvancedMD serves practices of 2 to 50 providers. Epic reaches independent groups above 40. Compare practice size, pricing, billing modules, and migration risk.',
+                      image: '/blog/blog_ophthalmology_1787604990454.webp',
+                      link: '/blog/ophthalmology-billing-companies'
+                    },
+                    {
+                      date: '06/01/2026',
+                      badge: 'MEDICAL BILLING',
+                      badgeColor: 'bg-rose-600',
+                      title: 'Pulmonology CPT Codes 2026: Cheat Sheet with 70+ Codes',
+                      desc: 'Do you know that bronchoscopy has more than 20 CPT codes, whereas pulmonary function testing (PFT) has 20? Now add sleep medicine, pulmonary rehabilitation, respiratory...',
+                      image: '/blog/blog_compliance_1787605001209.webp',
+                      link: '/blog/icd10-codes-asc'
+                    }
+                  ].map((card, idx) => (
+                    <Link key={idx} to={card.link} className="group flex flex-col justify-between rounded-xl border border-slate-200/70 bg-white p-2.5 shadow-sm hover:shadow-md hover:border-primary/50 transition-all duration-200 text-left">
+                      <div>
+                        <div className="flex items-center justify-between text-[10px] text-slate-400 font-medium mb-1">
+                          <span>{card.date}</span>
+                          <span className="text-primary font-semibold group-hover:underline">READ MORE &raquo;</span>
+                        </div>
+                        <div className="relative mb-1.5 h-16 w-full overflow-hidden rounded-lg bg-slate-100">
+                          <img src={card.image} alt={card.title} width="200" height="80" className="h-full w-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" decoding="async" />
+                          <span className={`absolute top-1 right-1 rounded px-1.5 py-0.5 text-[8px] font-bold text-white tracking-wider ${card.badgeColor}`}>
+                            {card.badge}
+                          </span>
+                        </div>
+                        <h4 className="text-[11px] font-bold leading-tight text-slate-900 group-hover:text-primary transition-colors line-clamp-2">
+                          {card.title}
+                        </h4>
+                        <p className="mt-1 text-[9.5px] leading-relaxed text-slate-500 line-clamp-3">
+                          {card.desc}
+                        </p>
+                      </div>
+                    </Link>
+                  ))}
+                </div>
               </motion.div>
             </div>
           </div>
