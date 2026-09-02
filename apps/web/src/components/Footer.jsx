@@ -16,7 +16,7 @@ function Footer() {
                 TransMedex is an end-to-end medical billing company that provides comprehensive billing services to over 40 medical specialties.
               </p>
             </div>
-            
+
             <div>
               <h3 className="text-xl font-semibold mb-4 text-white">Resources</h3>
               <ul className="space-y-3">
@@ -64,7 +64,7 @@ function Footer() {
           {/* Column 3: EHRs/EHRs & Book Appointment */}
           <div className="space-y-8">
             <div>
-              <h3 className="text-xl font-semibold mb-4 text-white">EHRs / EHRs</h3>
+              <h3 className="text-xl font-semibold mb-4 text-white">EHR / EMR</h3>
               <ul className="space-y-3">
                 <li><Link to="/emr/eclinicalworks" className="text-white/80 hover:text-white hover:underline transition-all text-sm">eClinicalWorks</Link></li>
                 <li><Link to="/emr/advancedmd" className="text-white/80 hover:text-white hover:underline transition-all text-sm">AdvancedMD</Link></li>
@@ -94,7 +94,7 @@ function Footer() {
               <div className="space-y-6">
                 <div>
                   <p className="text-white/80 text-sm mb-3">Our Locations</p>
-                  
+
                   <div className="flex items-start gap-3 mb-6">
                     <MapPin className="w-5 h-5 text-white flex-shrink-0 mt-0.5" />
                     <a href="https://maps.google.com/?q=1+Britton+Pl+Ste+6,+Voorhees+Township,+NJ+08043,+United+States" target="_blank" rel="noopener noreferrer" className="text-sm text-white/80 hover:text-white hover:underline">
@@ -105,12 +105,12 @@ function Footer() {
 
                 <div>
                   <p className="text-white/80 text-sm mb-3">Feel free to share your queries with us!</p>
-                  
+
                   <div className="flex items-center gap-3 mb-3">
                     <Phone className="w-5 h-5 text-white" />
                     <a href="tel:+16097930400" className="text-sm text-white/80 hover:text-white hover:underline">+1 (609) 793-0400</a>
                   </div>
-                  
+
                   <div className="flex items-center gap-3 mb-6">
                     <Mail className="w-5 h-5 text-white" />
                     <a href="mailto:info@transmedex.org" className="text-sm text-white/80 hover:text-white hover:underline">info@transmedex.org</a>
@@ -133,10 +133,10 @@ function Footer() {
         {/* Bottom Bar */}
         <div className="mt-12 sm:mt-16 pt-6 sm:pt-8 border-t border-white/20 flex flex-col items-center justify-center gap-3 sm:gap-4">
           <Link to="/" className="inline-block">
-            <img 
-              src="https://horizons-cdn.hostinger.com/7a432855-cd07-4bff-aa05-d1970751b6de/a27dc909893ded6711ddc4a601441ec9.png" 
-              alt="TransMedex" 
-              className="h-10" 
+            <img
+              src="https://horizons-cdn.hostinger.com/7a432855-cd07-4bff-aa05-d1970751b6de/a27dc909893ded6711ddc4a601441ec9.png"
+              alt="TransMedex"
+              className="h-10"
               width="160"
               height="40"
               loading="lazy"
