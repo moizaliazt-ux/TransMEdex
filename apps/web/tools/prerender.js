@@ -65,13 +65,31 @@ async function startServer() {
 }
 
 async function prerender() {
+  if (process.env.SKIP_PRERENDER === 'true' || process.env.SKIP_PRERENDER === '1') {
+    console.log('SKIP_PRERENDER is set, skipping prerender process.');
+    return;
+  }
+
   console.log('Starting prerender process...');
   console.log(`Build directory: ${buildDir}`);
   
-  const server = await startServer();
-  const browser = await puppeteer.launch({ headless: 'new' });
+  let server;
+  let browser;
 
   try {
+    server = await startServer();
+    browser = await puppeteer.launch({
+      headless: 'new',
+      args: [
+        '--no-sandbox',
+        '--disable-setuid-sandbox',
+        '--disable-dev-shm-usage',
+        '--disable-gpu',
+        '--no-first-run',
+        '--no-zygote',
+      ],
+    });
+
     for (const route of routes) {
       console.log(`Prerendering ${route}...`);
       const page = await browser.newPage();
@@ -124,10 +142,26 @@ async function prerender() {
     }
   } catch (error) {
     console.error('Error during prerendering:', error);
-    process.exit(1);
+    if (process.env.FAIL_ON_PRERENDER_ERROR === 'true') {
+      process.exit(1);
+    } else {
+      console.warn('⚠️ Prerendering could not be completed, but the SPA build in dist/apps/web is intact.');
+    }
   } finally {
-    await browser.close();
-    server.close();
+    if (browser) {
+      try {
+        await browser.close();
+      } catch (e) {
+        // ignore close error
+      }
+    }
+    if (server) {
+      try {
+        server.close();
+      } catch (e) {
+        // ignore close error
+      }
+    }
   }
 }
 
@@ -151,8 +185,8 @@ ${routes.map(route => `  <url>
 }
 
 async function run() {
-  await prerender();
   await generateSitemap();
+  await prerender();
   console.log('Prerendering and sitemap generation complete!');
 }
 

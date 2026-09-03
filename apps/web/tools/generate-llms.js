@@ -2,6 +2,7 @@
 
 import fs from 'fs';
 import path from 'path';
+import { seoConfig } from '../src/data/seoConfig.js';
 
 const CLEAN_CONTENT_REGEX = {
 	comments: /\/\*[\s\S]*?\*\/|\/\/.*$/gm,
@@ -162,21 +163,25 @@ function main() {
 			.filter(Boolean);
 	}
 
-	if (pages.length === 0) {
-		console.error('❌ No pages with Helmet components found!');
-		process.exit(1);
+	if (pages.length === 0 && typeof seoConfig === 'object') {
+		pages = Object.entries(seoConfig).map(([route, meta]) => ({
+			url: `https://www.transmedex.org${route}`,
+			title: meta.title || 'Untitled Page',
+			description: meta.description || 'No description available'
+		}));
 	}
 
+	if (pages.length === 0) {
+		console.error('❌ No pages with SEO or Helmet metadata found!');
+		process.exit(1);
+	}
 
 	const llmsTxtContent = generateLlmsTxt(pages);
 	const outputPath = path.join(process.cwd(), 'public', 'llms.txt');
 
 	ensureDirectoryExists(path.dirname(outputPath));
 	fs.writeFileSync(outputPath, llmsTxtContent, 'utf8');
+	console.log('✓ Generated public/llms.txt successfully!');
 }
 
-const isMainModule = import.meta.url === `file://${process.argv[1]}`;
-
-if (isMainModule) {
-	main();
-}
+main();
